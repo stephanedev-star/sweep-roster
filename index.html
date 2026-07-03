@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Digimark Consulting sweeping Roster</h1>
+    <button id="admin-login-btn">Admin Login</button>
+<button id="logout-btn" style="display:none;">Logout</button>
+
+
+<div id="admin-section" style="display:none;">
+    <input type="text" id="name-input" placeholder="Enter name">
+    <button id="add-name-btn">Add name</button>
+    <p id="name-count"></p>
+    <button id="generate-btn">Generate Roster</button>
+    <input type="text" id="date-input" placeholder="e.g. 2 - 8 June 2026">
+    <button id="print-btn" onclick="window.print()">Print / Save PDF</button>
+
+</div>
+    <p id="week-display"></p>
+    <div id="roster-output"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
